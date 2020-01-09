@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    //Con border-box hacemos que el tamaño de de las cajas sean del ancho que le especificamos.
+    box-sizing: border-box;
+    &::selection {
+        background-color: grey;
+    }
+  }
+   
+  body {
+    font-size: 16px;
+  }
+   
+  h1 {
+    font-size: 1.7em;
+  }
